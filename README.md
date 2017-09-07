@@ -10,7 +10,8 @@ This is the fourth or fifth discord bot i've run through and hopefully the last.
  - [fuzzywuzzy](https://github.com/seatgeek/fuzzywuzzy)
  - [gspread](https://github.com/burnash/gspread) (for accessing TGRP moderator records through Google Sheets)
  - [PRAW](https://github.com/praw-dev/praw)
-I have not included conf.py for security reasons.  It's where you'll be placing the majority of your sensitive or machine-specific information.  You may have to do a little bit of reverse engineering to figure out what goes there.  Feel free to contact with me if you have any questions.
+ 
+I have not included `conf.py` for security reasons.  It's where you'll be placing the majority of your sensitive or machine-specific information.  You may have to do a little bit of reverse engineering to figure out what goes there.  Feel free to contact with me if you have any questions.
 
 ### Download
  - Using git: `git clone https://github.com/Qvalador/scout.git`
@@ -22,6 +23,7 @@ Create and fill `conf.py` in the bot's base directory.  Some things you'll need 
  - Your bot's token (`token`)
  - Your bot's cog directory (`cog_dir`)
  - Your bot's base directory (`basedir`)
+ 
 Launch with `python run.py` or `python3 run.py` in your terminal.  `run.py` automatically reboots the bot if it's shut down for whatever reason; if you'd rather have it stay dead, just run `bot.py` instead.
 
 ## Known Issues
